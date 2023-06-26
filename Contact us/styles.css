@@ -1,0 +1,115 @@
+/*Variables*/
+:root{
+    --font-family: 'Inter';
+    --strong-purple: #530475;
+    --btn-bg-color: #5304753a;
+    --light-pink: #F7E5FF;
+    --white: #ffff;
+    font-size: 18px;
+}
+/*Body settings*/
+body{
+    background-image: url('assets/bg-desktop.png');
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 3%;
+
+    font-family: var(--font-family);
+    color: var(--strong-purple);
+}
+
+/*Navbar settings*/
+.bg-body-tertiary{ /*navbar bg*/
+    --bs-bg-opacity:0;
+    background: none;
+}
+
+/*Font settings*/
+h3{
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+label{
+    font-weight: 700;
+}
+#agree-label{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+/*Container settings*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    #form-div{
+        width: 80%;
+    }
+}
+@media (min-width: 1200px) {
+    #form-div{
+        width: 50%;
+    }
+}
+form{
+    background-color: var(--light-pink);
+    padding: 3%;
+    border-radius: 20px;
+}
+.form-label{
+    margin-bottom: 0;
+}
+
+.container-md > div{
+    background-color: var(--light-pink);
+    width: fit-content;
+    padding: 3%;
+    margin: 0 auto;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+
+
+
+/*Input settings*/
+.form-control::placeholder{
+    color: var(--light-pink);
+}
+.form-control, .form-select, #name-input:focus, #email-input:focus, #msg-input:focus{
+    background-color: var(--btn-bg-color);
+    color: var(--white);
+}
+option{
+    color: var(--strong-purple);
+}
+option:disabled{
+    color: var(--btn-bg-color);
+}
+
+/*Validation settings*/
+.invalid-message{
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.hidden{
+    display: none;
+}
+
+
+/*Button settings*/
+.btn{
+    box-shadow: 2px 2px 3px 0px var(--strong-purple);
+    --bs-btn-bg: var(--btn-bg-color);
+    --bs-btn-hover-border-color:var(--strong-purple);
+    --bs-btn-hover-color: var(--strong-purple);
+    font-weight: 700;
+    color: var(--white);
+}
+.btn:hover{
+    box-shadow: none;
+}
+.btn:active{
+    border: none;
+}
+#button-div{
+    text-align: right;
+}
