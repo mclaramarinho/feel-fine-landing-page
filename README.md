@@ -1,6 +1,6 @@
 # feel-fine-landing-page
 Landing page made with HTML, CSS, Bootstrap and JS
-Live URL: ![link][https://mclaramarinho.github.io/feel-fine-landing-page/]
+Live URL: [https://mclaramarinho.github.io/feel-fine-landing-page/]
 
 
 ## THE CHALLENGE
